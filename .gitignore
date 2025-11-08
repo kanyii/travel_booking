@@ -1,0 +1,57 @@
+
+# Python/Django .gitignore
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+media/
+staticfiles/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+.pytest_cache/
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Pipenv
+Pipfile.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Others
+node_modules/
